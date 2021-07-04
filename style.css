@@ -5,9 +5,9 @@
 }
 
 .imagem{
-    width: 250px;
-    height: 250px;
-    background:url(‘casal.jpg’);
+    width: 20px;
+    height: 25px;
+    background-image: url(casal.jpg);
 }
 
 .texto{
