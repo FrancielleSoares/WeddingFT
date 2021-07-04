@@ -1,4 +1,41 @@
-.names {
-    word-spacing: 20px;
-    color: rgba(255, 136, 0, 0.801);
+
+
+#casal {
+    width: 100%;
 }
+
+.names {
+    padding-left: 50px;
+    background: #ad6404;
+    color: rgb(255, 255, 255);
+}
+
+.casorio {
+    padding-left: 150px;
+    color: rgb(71, 41, 19);
+}
+
+em strong {
+	color: #0000FF; 
+}
+
+p {
+	text-align: center;
+}
+
+.principal {
+    background: #ad6404;
+	padding: 30px;
+}
+
+.casalft {
+    background: #FFFFFF;
+	padding: 20px;
+}
+.casal2 {
+    width: 50%;
+}
+
+.itens {
+	font-style: italic;
+ }
