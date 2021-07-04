@@ -10,6 +10,14 @@
     background-image: url(casal.jpg);
 }
 
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
 .texto{
     position: absolute;
       background-color: rgba(0,0,0,0.5);
@@ -30,10 +38,12 @@
 .casorio {
     padding-left: 150px;
     color: rgb(71, 41, 19);
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 em strong {
-	color: #0000FF; 
+	color: #000000; 
+    background-color: rgba(230, 27, 27, 0.411);
 }
 
 p {
@@ -41,18 +51,19 @@ p {
 }
 
 .principal {
-    background: #ad6404;
+    background: #ffffff73;
 	padding: 30px;
 }
 
 .casalft {
-    background: #FFFFFF;
-	padding: 20px;
+    background: #ffffff73;
+	padding: 50px;
 }
-.casal2 {
-    width: 50%;
+.imagem2 {
+    width: 20%;
 }
 
 .itens {
 	font-style: italic;
  }
+
