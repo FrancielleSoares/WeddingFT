@@ -2,17 +2,16 @@ body{
     background-image: url(casalft.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
-.bottuns{
-    position: absolute;
+#item{
+    position: relative; 
 }
 
-#player{
-    position: absolute; 
+.grid-template-columns-2 {
+	grid-template-columns: 1fr 2fr;
 }
-
-
 .names {
     padding-left: 50px;
     background: #ad6404;
