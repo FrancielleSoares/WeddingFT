@@ -33,14 +33,16 @@
     <body>
         
         <header>
-            <div class=play>
+            <div class="buttons">
             
-                <button onclick="document.getElementById('player').avançar>=0.1"><</button>
-                <button onclick="document.getElementById('player').voltar>=0.1">></button>
+                <button onclick="document.getElementById('player').voltar<=0.1"><</button>
+                <button onclick="document.getElementById('player').avançar>=0.1">></button>
             </div>
           
             <audio id="player" autoplay="autoplay" controls="controls">
                 <source src="musica.mp3" type="audio/mp3" />
+                <source src="sendmusic.mp3" type="audio/mp3" />
+                <source src="musicavalenca.mp3" type="audio/mp3" />
                 seu navegador não suporta HTML5
             </audio>
     
