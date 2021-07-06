@@ -1,33 +1,9 @@
 
+#player{
+    position: absolute; 
 
-#casal {
-    width: 100%;
-}
-
-.imagem{
-    width: 20px;
-    height: 25px;
-    background-image: url(casal.jpg);
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
-
-.titulo-centralizado {
-	text-align: center;
-}
-.texto{
-    position: absolute;
-      background-color: rgba(0,0,0,0.5);
-      color:#fff;
-      text-align: center;
-      top: 100px;
-      width: 250px;
-      line-height: 30px;
-      height: 30px;
-}
 
 .names {
     padding-left: 50px;
@@ -41,33 +17,57 @@
     background-color: rgba(255, 255, 255, 0.411);
 }
 
-em strong {
-	color: #c46f00; 
-    background-color: rgba(255, 255, 255, 0.411);
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo-centralizado {
+	text-align: center;
 }
 
 p {
 	text-align: center;
 }
 
-.principal {
-    background: #ffffff73;
-	padding: 30px;
+em strong {
+	color: #c46f00; 
+    background-color: rgba(255, 255, 255, 0.411);
 }
 
 .casalft {
     background: #ffffff73;
 	padding: 50px;
 }
-.imagem2 {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 .itens {
 	font-style: italic;
- }
+}
+
+ .imagem2 {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#casal {
+    width: 100%;
+}
+
+.texto{
+    position: absolute;
+      background-color: rgba(0,0,0,0.5);
+      color:#fff;
+      text-align: center;
+      top: 100px;
+      width: 250px;
+      line-height: 30px;
+      height: 30px;
+}
+
+.principal {
+    background: #ffffff73;
+	padding: 30px;
+}
 
