@@ -1,6 +1,7 @@
 body{
     background-image: url(casalft.jpg);
     perspective: 1000px;
+    background-color: #0000007a;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
