@@ -1,3 +1,20 @@
+header{
+    background: white;
+}
+
+nav li {
+	display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
 body{
     background-image: url(imagemfundo.png);
     background-color: #ff73007a;
@@ -13,17 +30,7 @@ body{
 .grid-template-columns-2 {
 	grid-template-columns: 1fr 2fr;
 }
-.names {
-    padding-left: 50px;
-    background: #ad6404;
-    color: rgb(255, 255, 255);
-}
 
-.casorio {
-    padding-left: 150px;
-    color: rgb(71, 41, 19);
-    background-color: rgba(255, 255, 255, 0.411);
-}
 
 .principal{
 	background: #CCCCCC;
