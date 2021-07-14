@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" media="screen and (min-width:641px)">
+        <link  rel="stylesheet" href="smartphone.css" media="screen and (max-width 640px)">
         <title>Wedding F & T</title>
         <link rel="apple-touch-icon" sizes="57x57" HREF="apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" HREF="apple-icon-60x60.png">
@@ -15,7 +16,7 @@
         <link rel="apple-touch-icon" sizes="144x144" HREF="apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" HREF="apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" HREF="apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  HREF="android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192" HREF="android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" HREF="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" HREF="favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" HREF="favicon-16x16.png">
@@ -27,23 +28,48 @@
 
     <body>
         <header>
-            <h1><img src="imagemfundo5.png"></h1> 
-
-            <nav> 
-				<ul>
-					<li> <a href="https://www.youtube.com/playlist?list=PLJqa0TT02mJ2L1_bAlzD5CfAUoI_bvRN6&ab_channel=MKMUSICMKMUSIC"><img src="som.gif" border="0" height="80" width="85" alt="acessar youtube music"></a></li>
-					<li> <a href="https://www.youtube.com/channel/UCDVcoI1lQ7dFNXDceEUcarw"><img src="youtube.gif" border="0" height="60" width="65" alt="acessar youtube live"></a></li>
-					<li> <a href="https://www.instagram.com/fran.soarees/"><img src="insta.gif" border="0" height="60" width="65" alt="instagram para contato"></a></li>
-                    <audio id="player" autoplay="autoplay" controls="controls"><source src="musicavalenca.mp3" type="audio/mp3" />seu navegador não suporta HTML5</audio>
-				</ul>
-          
-                <section class="grid grid-template-columns-2">
-                    <div></div>
-    
-                </section>
+            
+            <div>
+                <h1>
+                    <img class="caixa" src="imagemfundo5.png">
+                </h1> 
+                
         
+                <nav> 
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/playlist?list=PLJqa0TT02mJ2L1_bAlzD5CfAUoI_bvRN6&ab_channel=MKMUSICMKMUSIC">
+                                <img class="teste" src="som.gif" alt="acessar youtube music">
+                                Nossa playlist
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCDVcoI1lQ7dFNXDceEUcarw">
+                                <img class="teste2" src="youtube.gif"  alt="acessar youtube live">
+                                Nosso canal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/fran.soarees/">
+                                <img class="teste2" src="insta.gif"  alt="instagram para contato">
+                                Nosso perfil
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <section>
+                <div class="som">
+                    <audio id="player" autoplay="autoplay" controls="controls">
+                        <source src="sendmusi.mp3" type="audio/mp3"/>
+                        seu navegador não suporta HTML5
+                    </audio>
+                </div>
+            </section>
         </header>
-        
+
+    
         <div class="principal">
 			<h3 class="titulo-centralizado">Sobre nós</h3>
             <p>Francielle e Thiago,<strong> namorados, noivos e atualmente casados no civil (desde 1 de julho 2021), e estaremos casando no religioso (em 24 de outubro 2021).</strong> traz para o...</p>
@@ -51,11 +77,18 @@
 			<p>...</p>
         </div>
 
-        <div class="casalft">
-            <h3> Subtitulo... </h3>
-            <img src="casal.jpg" class="imagem2">
-            <img src="casalft.jpg" class="imagem2">
-            <img src="Logotipo.png" class="imagem2">
+        <div class="fotos">
+            <h3> Momentos fotinhas... </h3>
+            <img src="casal.jpg">
+            <img src="casalft.jpg">
+            <img src="ui.jpg">
+            <img src="rs.jpg">
+            <img src="bj.jpg">
         </div>
+
+        <footer>
+			<img src="casalzin.gif">
+			<p class="copyright">&copy; Copyright  Wedding F & T - 2021</p>
+		</footer>
     </body>
 </html>

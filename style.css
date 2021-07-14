@@ -1,41 +1,43 @@
 header{
-    background: white;
+    background: rgb(114, 112, 112);
+    max-width: 100%;
+
 }
 
-nav li {
+
+.caixa{
+    max-width: 100%;
+    height: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+nav li{
 	display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 5px;
 }
 
-nav a {
+nav a{
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #af5002;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
 body{
-    background-image: url(imagemfundo.png);
     background-color: #ff73007a;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
-#item{
-    position: relative; 
-}
-
-.grid-template-columns-2 {
-	grid-template-columns: 1fr 2fr;
-}
-
-
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
 
 .titulo-centralizado {
 	text-align: center;
@@ -47,42 +49,59 @@ p {
 
 em strong {
 	color: #c46f00; 
-    background-color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 
-.casalft {
-    background: #ffffff73;
-	padding: 50px;
-}
-
-.itens {
-	font-style: italic;
-}
-
- .imagem2 {
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-}
-
-#casal {
-    width: 100%;
+.fotos {
+    max-width: 100%;
+    border: 15px;
+    height: 100%;
+    display: inline;
+    margin: 100%;  
 }
 
 .texto{
     position: absolute;
-      background-color: rgba(0,0,0,0.5);
-      color:#fff;
-      text-align: center;
-      top: 100px;
-      width: 250px;
-      line-height: 30px;
-      height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
 }
 
 .principal {
     background: #ffffff73;
-	padding: 30px;
+	max-width: 100%;
 }
 
+.som{
+    width: 100%;
+    height: 50%;
+}
+
+.teste{
+    border: 0px; 
+    height: 80px; 
+    width: 85px;
+}
+
+.teste2{
+    border: 0px; 
+    height: 60px; 
+    width: 65px;
+}
+
+footer {
+    max-width: 100%;
+	text-align: center;
+	background: url(pe2.jpg);
+	padding: 40px 0;
+}
+
+.copyright{
+	color: #000000;
+	font-size: 15px;
+	margin: 20px;
+}
