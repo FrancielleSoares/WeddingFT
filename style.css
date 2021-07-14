@@ -53,10 +53,6 @@ em strong {
     background-color: rgba(0, 0, 0, 0.411);
 }
 
-.fotos {
-     
-}
-
 .texto{
     position: absolute;
     background-color: rgba(0,0,0,0.5);
@@ -100,7 +96,6 @@ em strong {
 	display: block;
 	text-align: center;
 	width: 50%;
-	vertical-align: top;
 	margin: 10% 20%;
 	padding: 30px 20px;
 	box-sizing: border-box;
